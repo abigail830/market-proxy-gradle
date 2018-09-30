@@ -12,7 +12,7 @@ public class Health {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
-        return "Health!";
+        return "I am Health!";
     }
 }
 
